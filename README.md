@@ -1,3 +1,6 @@
+#generator-weel
+
+Here's the structure it generates now. Nothing set in stone.
 ```
 ├── app
 │   ├── templates
