@@ -16,12 +16,38 @@ describe('weel:app', function () {
       .on('end', done);
   });
 
-  it('creates files', function () {
+  it('Creates base project files', function () {
     assert.file([
-      'bower.json',
       'package.json',
       '.editorconfig',
-      '.jshintrc'
+      '.jshintrc',
+      '.gitignore',
+      'README.md'
+    ]);
+  });
+
+  it('Creates gulp Scaffolding', function () {
+    assert.file([
+      'gulpfile.js',
+      'gulp/build.js',
+      'gulp/options.js',
+      'gulp/linting.js',
+      'gulp/test.js',
+      'gulp/watch.js',
+      'gulp/serve.js',
+      'gulp/assets/fonts.js',
+      'gulp/assets/images.js',
+      'gulp/assets/index.js',
+      'gulp/assets/partials.js',
+      'gulp/scripts/core.js',
+      'gulp/scripts/common.js',
+      'gulp/scripts/features.js',
+      'gulp/styles/core.js',
+      'gulp/styles/common.js',
+      'gulp/styles/features.js',
+      'gulp/styles/themes.js',
+      'gulp/test/unit.js',
+      'gulp/test/e2e.js'
     ]);
   });
 });
