@@ -26,6 +26,17 @@ lodash's proven methods to keep readability, performance and correctness high.
 ```
 
 ##Usage
+###Create an application
+
+###Begin your Feedback Loop
+
+###Create a server-side feature
+
+###Create a client-side feature
+
+###Configuring your `core`
+
+###Creating Reusable Things in `common`
 
 ##Target libraries
 
