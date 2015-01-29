@@ -6,21 +6,28 @@ client and server side features.
 * **Feature-based**: We organize code by feature, including a feature's
 controller, directive, styling, and partial in one place. There will be no
 `controllers` or `partials` directories here.
-* **Code Re-use**: Encouraging users to put reusable code across features into
+* **Code Re-Use**: Encouraging users to put reusable code across features into
 the `common` area.
 * **Module Theming**: You application will easily support skinning and
 customization not requiring separate deployments.
 * **Heavy Lodash Use**: Examples and templates set up will not reinvent the
-utility wheels (e.g. `if(typeof something ==='undefined') // ...`) and rely on
+wheel (e.g. `if(typeof something ==='undefined') // ...`) and rely on
 lodash's proven methods to keep readability, performance and correctness high.
+
+##Installation
+```
+> npm install -g generator-weel
+```
+
+##Usage
 
 ##Target libraries
 
 ###Testing
 * Mocha
 * Chai
-* CucumberJS
-* Protractor
+* Sinon
+* CucumberJS/Protractor (depending on how things go)
 
 ###Client Side
 * browserify
@@ -35,6 +42,11 @@ lodash's proven methods to keep readability, performance and correctness high.
 * Waffles
 * Font Awesome 
 * Google Fonts
+
+##Metrics and Stuff (later targets of functionality)
+* Istanbul
+* Plato
+* CI Integration
 
 ##App Structure
 Here's the structure it generates now. Nothing set in stone.
